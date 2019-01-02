@@ -200,6 +200,7 @@ load_menu_data("data/lookup-tv.json", ['#tvmode'], [1], ['GDELT modes for invest
 load_menu_data("data/lookup-format.json", ['#format'], [1], ['Data formats for data export']);
 load_menu_data("data/lookup-geo_mode.json", ['#geomode'], [1], ['GDELT modes for investigating geographical references within the content. This use GDELT\'s 7 day GEO API.']);
 load_menu_data("data/lookup-geo_format.json", ['#geoformat'], [1], ['Data formats for data export']);
+load_menu_data("data/lookup-geo_sortby.json", ['#geoorder'], [1], ['How to prioritise which results are included for each point (default blank sorts by relevance)']);
 load_menu_data("//api.gdeltproject.org/api/v2/tv/tv?mode=stationdetails&format=json", ['#network'], [7], ['TV networks - national and international.']);
 // load_menu_data("data/LOOKUP-STATIONS.json", ['#network'], [7], ['TV networks - national and international.']);
 

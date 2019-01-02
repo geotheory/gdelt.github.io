@@ -163,6 +163,7 @@ function api_call(k) {
 
   if(VERBOSE) clog('api_call ' + call);
   if(call.indexOf('mode=Timeline') > 0) call += '&timezoom=yes'; // timezoom arg doesn't currently work in app, but does in opened links
+  // if()
   return call;
 }
 
